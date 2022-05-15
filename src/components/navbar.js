@@ -51,7 +51,7 @@ const ResponsiveAppBar = () => {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "danger",
+              color: "black",
               textDecoration: "none",
             }}
           >
@@ -87,7 +87,15 @@ const ResponsiveAppBar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <Link to="/about">About</Link>
+              <MenuItem key="about" onClick={handleCloseNavMenu} component={Link} to="/about">
+                  <Typography textAlign="center">About</Typography>
+              </MenuItem>
+              <MenuItem key="projects" onClick={handleCloseNavMenu} component={Link} to="/projects">
+                  <Typography textAlign="center">Projects</Typography>
+              </MenuItem>
+              <MenuItem key="contact" onClick={handleCloseNavMenu} component={Link} to="/contact">
+                  <Typography textAlign="center">Contact</Typography>
+              </MenuItem>
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
@@ -107,7 +115,7 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            Dev
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               <Button 
@@ -119,6 +127,26 @@ const ResponsiveAppBar = () => {
               variant="contained" 
               color="primary">
                 About
+              </Button>
+               <Button 
+              key="projects"
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "white", display: "block" }}
+              component={Link} 
+              to="/projects" 
+              variant="contained" 
+              color="primary">
+                Projects
+              </Button>
+               <Button 
+              key="contact"
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "white", display: "block" }}
+              component={Link} 
+              to="/contact" 
+              variant="contained" 
+              color="primary">
+                Contacts
               </Button>
           </Box>
 
