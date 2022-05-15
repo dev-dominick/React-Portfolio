@@ -3,12 +3,13 @@ import About from './components/aboutMe'
 import Contact from './components/contactMe'
 import Projects from './components/projects'
 import Home from './components/home'
+import './App.css'
 
 //import the nav bar component here
 
 function App() {
   return (
-      <div>
+      <div className="routesContainer">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
