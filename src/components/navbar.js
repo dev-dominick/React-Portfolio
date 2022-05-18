@@ -36,7 +36,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
@@ -55,7 +55,7 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            Dom Albano
+            Dominick Albano
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -87,14 +87,29 @@ const ResponsiveAppBar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <MenuItem key="about" onClick={handleCloseNavMenu} component={Link} to="/about">
-                  <Typography textAlign="center">About</Typography>
+              <MenuItem
+                key="about"
+                onClick={handleCloseNavMenu}
+                component={Link}
+                to="/about"
+              >
+                <Typography textAlign="center">About</Typography>
               </MenuItem>
-              <MenuItem key="projects" onClick={handleCloseNavMenu} component={Link} to="/projects">
-                  <Typography textAlign="center">Projects</Typography>
+              <MenuItem
+                key="projects"
+                onClick={handleCloseNavMenu}
+                component={Link}
+                to="/projects"
+              >
+                <Typography textAlign="center">Projects</Typography>
               </MenuItem>
-              <MenuItem key="contact" onClick={handleCloseNavMenu} component={Link} to="/contact">
-                  <Typography textAlign="center">Contact</Typography>
+              <MenuItem
+                key="contact"
+                onClick={handleCloseNavMenu}
+                component={Link}
+                to="/contact"
+              >
+                <Typography textAlign="center">Contact</Typography>
               </MenuItem>
             </Menu>
           </Box>
@@ -118,36 +133,50 @@ const ResponsiveAppBar = () => {
             Dev
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              <Button 
+            <Button
               key="about"
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
-              component={Link} 
-              to="/about" 
-              variant="contained" 
-              color="primary">
-                About
-              </Button>
-               <Button 
-              key="projects"
+              component={Link}
+              to="/about"
+              variant="contained"
+              color="primary"
+            >
+              About Me
+            </Button>
+            <Button
+              key="project"
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
-              component={Link} 
-              to="/projects" 
-              variant="contained" 
-              color="primary">
-                Projects
-              </Button>
-               <Button 
+              component={Link}
+              to="/projects"
+              variant="contained"
+              color="primary"
+            >
+              Projects
+            </Button>
+            <Button
               key="contact"
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
-              component={Link} 
-              to="/contact" 
-              variant="contained" 
-              color="primary">
-                Contacts
-              </Button>
+              component={Link}
+              to="/contact"
+              variant="contained"
+              color="primary"
+            >
+              Contacts
+            </Button>
+            <Button
+              key="about"
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "white", display: "block" }}
+              component={Link}
+              to="/about"
+              variant="contained"
+              color="primary"
+            >
+              Resume
+            </Button>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
