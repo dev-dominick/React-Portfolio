@@ -2,6 +2,11 @@
   text-align: center;
 }
 
-.Appbar {
-  color: white;
+.MuiAppBar-colorPrimary {
+  /* background-color: rgba(85, 225, 29, 0.636) !important; */
+  color: black;
 }
+
+/* .MuiAppBar-root {
+  background: white;
+} */
