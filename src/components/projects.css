@@ -1,0 +1,65 @@
+.box-item {
+  border: 5px solid green;
+  background-color: rgb(40, 40, 51);
+  color: white;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: center;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+  border-radius: 3rem;
+
+}
+
+.div-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-area {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 25px 0;
+  padding: 10px 0;
+}
+
+#project-1 {
+  /* background-image: url("./img/project-1-pic.png"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+#project-2 {
+  /* background-image: url("./img/planner.png"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+#project-3 {
+  /* background-image: url("./img/password-generator.png"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+#project-4 {
+  /* background-image: url("./img/code-quiz.png"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+#project-5 {
+  /* background-image: url("./img/horiseon-screenshot.png"); */
+  background-position: center center;
+  background-size: cover;
+}
