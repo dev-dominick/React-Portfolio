@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
+import "./navbar.css";
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -35,13 +36,16 @@ const ResponsiveAppBar = () => {
     setAnchorElUser(null);
   };
 
+
+
+
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
             component="a"
             href="/"
@@ -51,7 +55,7 @@ const ResponsiveAppBar = () => {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "black",
+              color: "yellow",
               textDecoration: "none",
             }}
           >
@@ -167,11 +171,11 @@ const ResponsiveAppBar = () => {
               Contacts
             </Button>
             <Button
-              key="about"
+              key="resume"
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
               component={Link}
-              to="/about"
+              to="/resume"
               variant="contained"
               color="primary"
             >
