@@ -1,6 +1,7 @@
 .routesContainer {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
+
 }
 
 .App {
@@ -20,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: gray;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
