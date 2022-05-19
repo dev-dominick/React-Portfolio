@@ -21,6 +21,26 @@ import "./navbar.css";
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [scrolled, setScrolled] = React.useState(false);
+
+  React.useEffect(() => {
+    console.log(scrolled);
+    if (typeof window !== "undefined") {
+      window.onscroll = () => {
+        let currentScrollPos = window.pageYOffset;
+        let maxScroll = document.body.scrollHeight - window.innerHeight;
+        // console.log(maxScroll)
+        console.log(currentScrollPos);
+        if (currentScrollPos === 0 ) {
+          setScrolled(false);
+
+          // console.log(currentScrollPos)
+        } else {
+          setScrolled(true);
+        }
+      };
+    }
+  })
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -41,7 +61,10 @@ const ResponsiveAppBar = () => {
 
 
   return (
-    <AppBar style={{ background: "#2E3B55" }} position="sticky">
+    <AppBar sx={{ 
+      backgroundColor: scrolled ? "transparent !important" : "black !important" 
+
+     }} position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
