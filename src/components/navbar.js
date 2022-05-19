@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 import "./navbar.css";
 
 
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+// const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -41,7 +41,7 @@ const ResponsiveAppBar = () => {
 
 
   return (
-    <AppBar position="sticky">
+    <AppBar style={{ background: "#2E3B55" }} position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
@@ -116,16 +116,24 @@ const ResponsiveAppBar = () => {
               >
                 <Typography textAlign="center">Contact</Typography>
               </MenuItem>
+              <MenuItem
+                key="resume"
+                onClick={handleCloseNavMenu}
+                component={Link}
+                to="/resume"
+              >
+                <Typography textAlign="center">Resume</Typography>
+              </MenuItem>
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+
           <Typography
             variant="h5"
             noWrap
             component="a"
             href=""
             sx={{
-              mr: 2,
+              mr: 5,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
               fontFamily: "monospace",
@@ -135,13 +143,22 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            Dev
+            Dev Dominick
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+
+            {/* about me button */}
             <Button
               key="about"
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white", display: "block" }}
+              sx={{
+                mr: 5,
+                my: 5,
+                color: "white",
+                display: "block",
+                marginLeft: 20,
+                backgroundColor: "black"
+              }}
               component={Link}
               to="/about"
               variant="contained"
@@ -149,10 +166,18 @@ const ResponsiveAppBar = () => {
             >
               About Me
             </Button>
+
+            {/* Projects button */}
             <Button
               key="project"
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white", display: "block" }}
+              sx={{
+                mr: 5,
+                my: 5,
+                color: "white",
+                display: "block",
+                backgroundColor: "black"
+              }}
               component={Link}
               to="/projects"
               variant="contained"
@@ -160,10 +185,19 @@ const ResponsiveAppBar = () => {
             >
               Projects
             </Button>
+
+            {/* Contacts Button */}
             <Button
               key="contact"
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white", display: "block" }}
+              sx={{
+                mr: 5,
+                my: 5,
+                color: "white",
+                display: "block",
+                backgroundColor: "black"
+
+              }}
               component={Link}
               to="/contact"
               variant="contained"
@@ -171,10 +205,20 @@ const ResponsiveAppBar = () => {
             >
               Contacts
             </Button>
+
+            {/* Resume button */}
             <Button
               key="resume"
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white", display: "block" }}
+              // className='navbuttons'
+              sx={{
+                mr: 5,
+                my: 5,
+                color: "white",
+                display: "block",
+                backgroundColor: "black"
+
+              }}
               component={Link}
               to="/resume"
               variant="contained"
@@ -184,7 +228,8 @@ const ResponsiveAppBar = () => {
             </Button>
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          {/* icon at the top left of screen */}
+          {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Dom Albano" src="" />
@@ -212,7 +257,7 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>
