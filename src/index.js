@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 // routing
 import { BrowserRouter } from "react-router-dom";
 import './index.css';
@@ -17,6 +16,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
+
       <App />
       <Footer />
     </BrowserRouter>
