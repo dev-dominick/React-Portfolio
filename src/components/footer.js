@@ -1,16 +1,21 @@
 import * as React from 'react';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import FolderIcon from '@mui/icons-material/Folder';
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+
+
 
 const styles = {
   footerStyle: {
     position: 'fixed',
-    width: '100vw'
-
+    bottom: '0px',
+    width: '100vw',
+    backgroundColor: 'grey',
+    // color: 'white'
+    // // fontSize: 'large',
+    // opacity: '.5'
   }
 }
 
@@ -22,23 +27,22 @@ export default function Footer() {
   };
 
   return (
-    <BottomNavigation style={styles.footerStyle} sx={{ width: 500 }} value={value} onChange={handleChange}>
+    <BottomNavigation style={styles.footerStyle} sx={{ width: 500, color: 'white' }} value={value} onChange={handleChange}>
       <BottomNavigationAction
-        label="Recents"
-        value="recents"
-        icon={<RestoreIcon />}
+        label="GitHub"
+        value="GitHub"
+        icon={<GitHubIcon />}
       />
       <BottomNavigationAction
-        label="Favorites"
+        label="LinkedIn"
         value="favorites"
-        icon={<FavoriteIcon />}
+        icon={<LinkedInIcon />}
       />
       <BottomNavigationAction
-        label="Nearby"
+        label="Twitter"
         value="nearby"
-        icon={<LocationOnIcon />}
+        icon={<TwitterIcon />}
       />
-      <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} />
     </BottomNavigation>
   );
 }
