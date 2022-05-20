@@ -16,7 +16,6 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
-
       <App />
       <Footer />
     </BrowserRouter>
