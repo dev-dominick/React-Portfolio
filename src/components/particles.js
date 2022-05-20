@@ -53,7 +53,7 @@ export default function ParticlesContainer() {
 
         particles: {
           number: {
-            value: 130,
+            value: 300,
             density: {
               enable: true,
               value_area: 801.7060304327614,
@@ -147,7 +147,7 @@ export default function ParticlesContainer() {
               speed: 3,
             },
             repulse: {
-              distance: 400,
+              distance: 200,
               duration: 0.4,
             },
             push: {
