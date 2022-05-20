@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8c77065.css",
-    "main.js": "/static/js/main.388a7237.js",
-    "static/js/937.0a13bb1b.chunk.js": "/static/js/937.0a13bb1b.chunk.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/project-1-pic.png": "/static/media/project-1-pic.22dca3a803c801c157a7.png",
-    "static/media/horiseon-screenshot.png": "/static/media/horiseon-screenshot.6da5c7ecead5cf7f278e.png",
-    "static/media/galaxy-portfolio.jpg": "/static/media/galaxy-portfolio.929b904e2c1c4107ecf3.jpg",
-    "static/media/planner.png": "/static/media/planner.88c32847e18e34513bdc.png",
-    "static/media/password-generator.png": "/static/media/password-generator.f3fc56560e016c70c482.png",
-    "static/media/code-quiz.png": "/static/media/code-quiz.d11babc373a6b4362daf.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.d8c77065.css.map": "/static/css/main.d8c77065.css.map",
-    "main.388a7237.js.map": "/static/js/main.388a7237.js.map",
-    "937.0a13bb1b.chunk.js.map": "/static/js/937.0a13bb1b.chunk.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.934aa8c7.css",
+    "main.js": "/react-portfolio/static/js/main.56e9e5e5.js",
+    "static/js/937.0a13bb1b.chunk.js": "/react-portfolio/static/js/937.0a13bb1b.chunk.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/project-1-pic.png": "/react-portfolio/static/media/project-1-pic.22dca3a803c801c157a7.png",
+    "static/media/horiseon-screenshot.png": "/react-portfolio/static/media/horiseon-screenshot.6da5c7ecead5cf7f278e.png",
+    "static/media/galaxy-portfolio.jpg": "/react-portfolio/static/media/galaxy-portfolio.929b904e2c1c4107ecf3.jpg",
+    "static/media/planner.png": "/react-portfolio/static/media/planner.88c32847e18e34513bdc.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.f3fc56560e016c70c482.png",
+    "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.d11babc373a6b4362daf.png",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.934aa8c7.css.map": "/react-portfolio/static/css/main.934aa8c7.css.map",
+    "main.56e9e5e5.js.map": "/react-portfolio/static/js/main.56e9e5e5.js.map",
+    "937.0a13bb1b.chunk.js.map": "/react-portfolio/static/js/937.0a13bb1b.chunk.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8c77065.css",
-    "static/js/main.388a7237.js"
+    "static/css/main.934aa8c7.css",
+    "static/js/main.56e9e5e5.js"
   ]
 }
