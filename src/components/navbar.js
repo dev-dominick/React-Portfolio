@@ -226,11 +226,11 @@ const ResponsiveAppBar = () => {
               variant="contained"
               color="primary"
             >
-              Contacts
+              Contact me
             </Button>
 
             {/* Resume button */}
-            <Button
+            {/* <Button
               key="resume"
               onClick={handleCloseNavMenu}
               // className='navbuttons'
@@ -248,7 +248,7 @@ const ResponsiveAppBar = () => {
               color="primary"
             >
               Resume
-            </Button>
+            </Button> */}
           </Box>
 
           {/* icon at the top left of screen */}

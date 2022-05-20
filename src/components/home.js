@@ -11,7 +11,7 @@ export default function Home() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
 
         <main>
-          <h1>Welcome! To my New Awesome Portfolio</h1>
+          <h1></h1>
           <ParticlesContainer />
         </main>
       </header>
