@@ -62,7 +62,7 @@ const ResponsiveAppBar = () => {
 
   return (
     <AppBar sx={{ 
-      backgroundColor: scrolled ? "transparent !important" : "black !important" 
+      backgroundColor: scrolled ? "transparent !important" : "grey !important" 
 
      }} position="sticky">
       <Container maxWidth="xl">
@@ -79,7 +79,7 @@ const ResponsiveAppBar = () => {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "yellow",
+              color: "white",
               textDecoration: "none",
             }}
           >
