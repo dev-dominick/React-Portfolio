@@ -14,7 +14,6 @@ export default function Projects() {
           >
             <div className="project-name-text">
               <h3>Daily Meal Planner </h3>
-              hello
               <span>HTML/CSS/JS</span>
             </div>
           </a>
@@ -27,7 +26,7 @@ export default function Projects() {
             <div className="project-name-text">
               <h2>Work Day Planner</h2>
               
-              <h3>HTML/CSS/JS</h3>
+              <span>HTML/CSS/JS</span>
             </div>
           </a>
 

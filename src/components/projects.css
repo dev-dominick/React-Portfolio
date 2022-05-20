@@ -1,5 +1,5 @@
 .box-item {
-  border: 5px solid green;
+  border: 5px solid black;
   background-color: rgb(40, 40, 51);
   color: white;
   min-height: 150px;
@@ -40,31 +40,31 @@
 }
 
 #project-1 {
-  /* background-image: url("./img/project-1-pic.png"); */
+  background-image: url("../../public/project-1-pic.png");
   background-position: center center;
   background-size: cover;
 }
 
 #project-2 {
-  /* background-image: url("./img/planner.png"); */
+  background-image: url("../../public/planner.png");
   background-position: center center;
   background-size: cover;
 }
 
 #project-3 {
-  /* background-image: url("./img/password-generator.png"); */
+  background-image: url("../../public/password-generator.png");
   background-position: center center;
   background-size: cover;
 }
 
 #project-4 {
-  /* background-image: url("./img/code-quiz.png"); */
+  background-image: url("../../public/code-quiz.png");
   background-position: center center;
   background-size: cover;
 }
 
 #project-5 {
-  /* background-image: url("./img/horiseon-screenshot.png"); */
+  background-image: url("../../public/horiseon-screenshot.png");
   background-position: center center;
   background-size: cover;
 }
