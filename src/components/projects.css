@@ -5,9 +5,6 @@
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(30%);
-
-  /* todo sup w this */
-  display: inline;
   align-items: center;
   padding: 0 0 20px 0;
   margin: 0.5em;
@@ -22,9 +19,8 @@
 
 .project-name-text {
   display: flex;
-  justify-content: center;
-  /* align-self: center; */
-  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
 }
 
 .div-container {
