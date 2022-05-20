@@ -19,7 +19,7 @@ To install this application, fork my repo, clone the project in your terminal, n
 
 ## Usage
 
-Add Link to deplayed site here
+https://dev-dominick.github.io/react-portfolio/
 
 ![alt text](./public/react-portfolio.png)
 

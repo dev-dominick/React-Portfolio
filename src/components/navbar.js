@@ -72,7 +72,7 @@ const ResponsiveAppBar = () => {
             variant="h5"
             noWrap
             component="a"
-            href="/"
+            href="/react-portfolio"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
