@@ -27,18 +27,26 @@ export default function Footer() {
   };
 
   return (
-    <BottomNavigation style={styles.footerStyle} sx={{ width: 500, color: 'white' }} value={value} onChange={handleChange}>
+    <BottomNavigation
+      style={styles.footerStyle}
+      sx={{ width: 500, color: "white" }}
+      value={value}
+      onChange={handleChange}
+    >
       <BottomNavigationAction
+        href="https://github.com/dev-dominick"
         label="GitHub"
         value="GitHub"
         icon={<GitHubIcon />}
       />
       <BottomNavigationAction
+        href="https://www.linkedin.com/in/dominick-albano/"
         label="LinkedIn"
         value="favorites"
         icon={<LinkedInIcon />}
       />
       <BottomNavigationAction
+        href="#comingsoon"
         label="Twitter"
         value="nearby"
         icon={<TwitterIcon />}
