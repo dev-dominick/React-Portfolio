@@ -4,7 +4,18 @@
 }
 
 .aboutMeText {
+  border: 1px solid red;
+  border-radius: 15px;
+  background-color: black;
   text-align: center;
+  padding: 1rem;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  right: 25%;
+  margin-left: -50px;
+
+
 }
 /* 
 .aboutme-header {
