@@ -23,15 +23,12 @@ export default function BasicModal() {
   const handleClose = () => setOpen(false);
 
   return (
-    
-      <div onClick={handleOpen} 
-      class="box-item" 
-      id="project-1">
-        <div className="project-name-text">
-          <h3>Daily Meal Planner </h3>
-          <span>HTML/CSS/JS</span>
-        </div>
-      
+    <div class="box-item" id="project-1">
+      <div className="project-name-text" onClick={handleOpen}>
+        <h3>Daily Meal Planner </h3>
+        <span>HTML/CSS/JS</span>
+      </div>
+
       <Modal
         open={open}
         onClose={handleClose}
@@ -42,7 +39,7 @@ export default function BasicModal() {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Text in a modal
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          <Typography id="modal-modal-description" sx={{ mt: 2, color: 'black' }}>
             Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
           </Typography>
         </Box>
