@@ -92,7 +92,7 @@ export default function ParticlesContainer() {
             random: true,
             anim: {
               enable: false,
-              speed: 4,
+              speed: 1,
               size_min: 0.3,
               sync: false,
             },
@@ -106,7 +106,7 @@ export default function ParticlesContainer() {
           },
           move: {
             enable: true,
-            speed: 1,
+            speed: .1,
             direction: "none",
             random: true,
             straight: false,
@@ -147,7 +147,7 @@ export default function ParticlesContainer() {
               speed: 3,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
             },
             push: {
