@@ -35,18 +35,21 @@ export default function Footer() {
     >
       <BottomNavigationAction
         href="https://github.com/dev-dominick"
+        target="_blank"
         label="GitHub"
         value="GitHub"
         icon={<GitHubIcon />}
       />
       <BottomNavigationAction
         href="https://www.linkedin.com/in/dominick-albano/"
+        target="_blank"
         label="LinkedIn"
         value="favorites"
         icon={<LinkedInIcon />}
       />
       <BottomNavigationAction
         href="#comingsoon"
+        target="_blank"
         label="Twitter"
         value="nearby"
         icon={<TwitterIcon />}

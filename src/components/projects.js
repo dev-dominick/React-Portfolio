@@ -1,13 +1,14 @@
 import React from 'react'
 import "./projects.css";
-
+import BasicModal from './project1modal';
 export default function Projects() {
   return (
     //  <div>Projects</div>
     <div>
       <section class="section-area" id="projects">
         <div class="div-container">
-          <a
+          <BasicModal/>
+          {/* <a
             href="https://dev-dominick.github.io/daily-meal-planner/"
             class="box-item refactor"
             id="project-1"
@@ -16,7 +17,8 @@ export default function Projects() {
               <h3>Daily Meal Planner </h3>
               <span>HTML/CSS/JS</span>
             </div>
-          </a>
+          </a> */}
+
 
           <a
             href="https://dev-dominick.github.io/work-day-planner/"
