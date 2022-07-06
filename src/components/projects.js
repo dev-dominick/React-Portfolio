@@ -1,13 +1,16 @@
 import React from 'react'
 import "./projects.css";
-import BasicModal from './project1modal';
+import Project1modal from './project1modal';
+
+
+
 export default function Projects() {
   return (
     //  <div>Projects</div>
     <div>
       <section class="section-area" id="projects">
         <div class="div-container">
-          <BasicModal/>
+          <Project1modal/>
           {/* <a
             href="https://dev-dominick.github.io/daily-meal-planner/"
             class="box-item refactor"
