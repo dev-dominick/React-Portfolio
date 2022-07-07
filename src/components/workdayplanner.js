@@ -1,27 +1,25 @@
-import * as React from 'react';
-import Backdrop from '@mui/material/Backdrop';
-import Box from '@mui/material/Box';
-import Modal from '@mui/material/Modal';
-import Fade from '@mui/material/Fade';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import * as React from "react";
+import Backdrop from "@mui/material/Backdrop";
+import Box from "@mui/material/Box";
+import Modal from "@mui/material/Modal";
+import Fade from "@mui/material/Fade";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
 import Stack from "@mui/material/Stack";
 import { purple } from "@mui/material/colors";
 
 const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
   width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
+  bgcolor: "background.paper",
+  border: "2px solid #000",
   boxShadow: 24,
   p: 4,
 };
-
-
 
 const ColorButton = styled(Button)(({ theme }) => ({
   color: theme.palette.getContrastText(purple[500]),
@@ -31,15 +29,15 @@ const ColorButton = styled(Button)(({ theme }) => ({
   },
 }));
 
-export default function Project1modal() {
+export default function Workdayplanner() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
-    <div class="box-item" id="project-1">
+    <div class="box-item" id="project-2">
       <div className="project-name-text" onClick={handleOpen}>
-        <h3>Daily Meal Planner </h3>
+        <h2>Work Day Planner</h2>
         <span>HTML/CSS/JS</span>
       </div>
       <Modal
@@ -65,7 +63,7 @@ export default function Project1modal() {
                 paddingBottom: "3rem",
               }}
             >
-              Daily Meal Planner
+              Work Day Planner
             </Typography>
 
             <Stack spacing={2} direction="row">
@@ -85,7 +83,3 @@ export default function Project1modal() {
     </div>
   );
 }
-
-
-
-
