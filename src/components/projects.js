@@ -1,7 +1,9 @@
 import React from 'react'
 import "./projects.css";
-import Project1modal from './project1modal';
-
+import Dailymealplanner from "./dailymealplanner";
+import Workdayplanner from './workdayplanner';
+import Passwordgenerator from './Passwordgenerator';
+import Codequiz from './codequiz';
 
 
 export default function Projects() {
@@ -10,7 +12,7 @@ export default function Projects() {
     <div>
       <section class="section-area" id="projects">
         <div class="div-container">
-          <Project1modal/>
+          <Dailymealplanner/>
           {/* <a
             href="https://dev-dominick.github.io/daily-meal-planner/"
             class="box-item refactor"
@@ -21,21 +23,20 @@ export default function Projects() {
               <span>HTML/CSS/JS</span>
             </div>
           </a> */}
-
-
-          <a
+          <Workdayplanner/>
+          {/* <a
             href="https://dev-dominick.github.io/work-day-planner/"
             class="box-item led"
             id="project-2"
           >
             <div className="project-name-text">
               <h2>Work Day Planner</h2>
-              
+
               <span>HTML/CSS/JS</span>
             </div>
-          </a>
-
-          <a
+          </a> */}
+          <Passwordgenerator/>
+          {/* <a
             href="https://dev-dominick.github.io/password-generator/"
             class="box-item calc"
             id="project-3"
@@ -44,9 +45,9 @@ export default function Projects() {
               <h3>Password Generator</h3>
               <span>HTML/CSS/JS</span>
             </div>
-          </a>
-
-          <a
+          </a> */}
+          <Codequiz/>
+          {/* <a
             href="https://dev-dominick.github.io/code-quiz/"
             class="box-item puzzles"
             id="project-4"
@@ -55,7 +56,7 @@ export default function Projects() {
               <h3>Code Quiz</h3>
               <span>HTLM/CSS/JS</span>
             </div>
-          </a>
+          </a> */}
 
           <a
             href="https://dev-dominick.github.io/horiseon-accessibility-refactor/"
