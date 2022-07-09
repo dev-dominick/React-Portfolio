@@ -23,6 +23,7 @@ export default function About() {
           similar to agile development, in many of my projects. Excited to learn
           new technologies and implement them into future personal and
           open-source projects.
+          TESTING
         </p>
       </main>
       {/* </header> */}
