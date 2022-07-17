@@ -37,7 +37,7 @@ export default function Dailymealplanner() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div class="box-item" id="project-1">
+    <div class="box-item" id="dailymealplannerPhoto">
       <div className="project-name-text" onClick={handleOpen}>
         <h3>Daily Meal Planner </h3>
         <span>HTML/CSS/JS</span>

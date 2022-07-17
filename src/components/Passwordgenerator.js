@@ -35,7 +35,7 @@ export default function Passwordgenerator() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div class="box-item" id="project-3">
+    <div class="box-item" id="passwordgeneratorPhoto">
       <div className="project-name-text" onClick={handleOpen}>
         <h3>Password Generator</h3>
         <span>HTML/CSS/JS</span>

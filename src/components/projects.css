@@ -40,32 +40,32 @@
   padding: 10px 0;
 }
 
-#project-1 {
-  background-image: url("../../public/project-1-pic.png");
+#dailymealplannerPhoto {
+  background-image: url("../../public/assets/project-1-pic.png");
   background-position: center center;
   background-size: cover;
 }
 
-#project-2 {
-  background-image: url("../../public/planner.png");
+#workdayplannerPhoto {
+  background-image: url("../../public/assets/planner.png");
   background-position: center center;
   background-size: cover;
 }
 
-#project-3 {
-  background-image: url("../../public/password-generator.png");
+#passwordgeneratorPhoto {
+  background-image: url("../../public/assets/password-generator.png");
   background-position: center center;
   background-size: cover;
 }
 
-#project-4 {
-  background-image: url("../../public/code-quiz.png");
+#codequizPhoto {
+  background-image: url("../../public/assets/code-quiz.png");
   background-position: center center;
   background-size: cover;
 }
 
-#project-5 {
-  background-image: url("../../public/horiseon-screenshot.png");
+#notepadPhoto {
+  background-image: url("../../public/assets/note-pad.png");
   background-position: center center;
   background-size: cover;
 }

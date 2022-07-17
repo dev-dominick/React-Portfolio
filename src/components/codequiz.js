@@ -35,7 +35,7 @@ export default function Codequiz() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div class="box-item" id="project-4">
+    <div class="box-item" id="codequizPhoto">
       <div className="project-name-text" onClick={handleOpen}>
         <h3>Code Quiz</h3>
         <span>HTML/CSS/JS</span>

@@ -29,15 +29,15 @@ const ColorButton = styled(Button)(({ theme }) => ({
   },
 }));
 
-export default function Workdayplanner() {
+export default function Notepad() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
-    <div class="box-item" id="workdayplannerPhoto">
+    <div class="box-item" id="notepadPhoto">
       <div className="project-name-text" onClick={handleOpen}>
-        <h2>Work Day Planner</h2>
+        <h3>Note Pad</h3>
         <span>HTML/CSS/JS</span>
       </div>
       <Modal
@@ -63,7 +63,7 @@ export default function Workdayplanner() {
                 paddingBottom: "3rem",
               }}
             >
-              Work Day Planner
+              Note Pad
             </Typography>
 
             <Stack spacing={2} direction="row">

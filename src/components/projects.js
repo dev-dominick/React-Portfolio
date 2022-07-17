@@ -4,7 +4,7 @@ import Dailymealplanner from "./dailymealplanner";
 import Workdayplanner from './workdayplanner';
 import Passwordgenerator from './Passwordgenerator';
 import Codequiz from './codequiz';
-
+import Notepad from './notepad';
 
 export default function Projects() {
   return (
@@ -57,8 +57,8 @@ export default function Projects() {
               <span>HTLM/CSS/JS</span>
             </div>
           </a> */}
-
-          <a
+          <Notepad/>
+          {/* <a
             href="https://dev-dominick.github.io/horiseon-accessibility-refactor/"
             class="box-item buddy"
             id="project-5"
@@ -67,7 +67,7 @@ export default function Projects() {
               <h3>Horiseon Refactor</h3>
               <span>HTML/CSS</span>
             </div>
-          </a>
+          </a> */}
         </div>
       </section>
     </div>
