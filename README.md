@@ -4,7 +4,7 @@
 
 Hi! My name is Dominick and this is my portfolio built with React.js!
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 
