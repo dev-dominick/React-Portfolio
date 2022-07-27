@@ -20,7 +20,7 @@ import "./navbar.css";
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [, setAnchorElUser] = React.useState(null);
+  // const [, setAnchorElUser] = React.useState(null);
   const [scrolled, setScrolled] = React.useState(false);
 
   React.useEffect(() => {
