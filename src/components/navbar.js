@@ -185,7 +185,7 @@ const ResponsiveAppBar = () => {
               component={Link}
               to="/about"
               variant="contained"
-              color="primary"
+              // color="primary"
             >
               About Me
             </Button>
@@ -229,58 +229,9 @@ const ResponsiveAppBar = () => {
               Contact me
             </Button>
 
-            {/* Resume button */}
-            {/* <Button
-              key="resume"
-              onClick={handleCloseNavMenu}
-              // className='navbuttons'
-              sx={{
-                mr: 5,
-                my: 5,
-                color: "white",
-                display: "block",
-                backgroundColor: "black"
-
-              }}
-              component={Link}
-              to="/resume"
-              variant="contained"
-              color="primary"
-            >
-              Resume
-            </Button> */}
           </Box>
 
-          {/* icon at the top left of screen */}
-          {/* <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Dom Albano" src="" />
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: "45px" }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box> */}
+         
         </Toolbar>
       </Container>
     </AppBar>
