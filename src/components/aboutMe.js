@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutMe.css'
-import ParticlesContainer from "./particles.js";
+// import ParticlesContainer from "./particles.js";
 
 export default function About() {
   return (

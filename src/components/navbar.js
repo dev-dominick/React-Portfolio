@@ -7,11 +7,11 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
+// import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
+// import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+// import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
@@ -20,7 +20,7 @@ import "./navbar.css";
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [, setAnchorElUser] = React.useState(null);
   const [scrolled, setScrolled] = React.useState(false);
 
   React.useEffect(() => {
@@ -28,7 +28,7 @@ const ResponsiveAppBar = () => {
     if (typeof window !== "undefined") {
       window.onscroll = () => {
         let currentScrollPos = window.pageYOffset;
-        let maxScroll = document.body.scrollHeight - window.innerHeight;
+        // let maxScroll = document.body.scrollHeight - window.innerHeight;
         // console.log(maxScroll)
         console.log(currentScrollPos);
         if (currentScrollPos === 0 ) {
@@ -45,17 +45,17 @@ const ResponsiveAppBar = () => {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
 
 
 
